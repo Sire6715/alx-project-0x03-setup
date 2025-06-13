@@ -1,10 +1,8 @@
-import Footer from "@/components/layouts/Footer";
-import Header from "@/components/layouts/Header";
-import React from "react";
-
-export default function Home() {
-  return <div className="">
-    <Header />
-    <Footer />
-  </div>;
+const Home = () => {
+  return (
+   <div>
+    <h1> Welcome to Splash App </h1>
+   </div>)
 }
+
+export default Home;
